@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ff589affa7cfc993",
+        "id": "0bc0b9109c374406",
         "type": "tabs",
         "children": [
           {
-            "id": "b6c4399bc2181927",
+            "id": "62c6dcbafd840505",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6c4399bc2181927",
+  "active": "62c6dcbafd840505",
   "lastOpenFiles": [
     "0_其他/1. Homebrew系列问题.md",
     "README.md",
