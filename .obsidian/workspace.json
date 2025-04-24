@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "1_MySQL/1_1 MySQL逻辑结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "0dab66580613deec",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "title": "1_1 MySQL逻辑结构"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,10 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dab66580613deec",
+  "active": "62c6dcbafd840505",
   "lastOpenFiles": [
-    "0_其他/1. Homebrew系列问题.md",
     "README.md",
+    "1_MySQL/1_1 MySQL逻辑结构.md",
+    "1_MySQL",
+    "0_其他/1. Homebrew系列问题.md",
     "0_其他",
     "test.md"
   ]
