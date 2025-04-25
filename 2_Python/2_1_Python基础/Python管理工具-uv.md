@@ -26,5 +26,9 @@ uv self update
 ```
 **卸载**
 ```
-
+uv cache clean
+rm -r "$(uv python dir)"
+rm -r "$(uv tool dir)"
+rm ~/.cargo/bin/uv ~/.cargo/bin/uvx
 ```
+> 先qing l
