@@ -33,3 +33,7 @@ rm ~/.cargo/bin/uv ~/.cargo/bin/uvx
 ```
 > 先清理缓存, 然后删除python和toll存储的文件夹, 最后删除uv和uvx命令
 
+### 管理Python版本
+```
+uv python list   查看可用的python版本和已经安装的python版本, 这两个功能s
+```
