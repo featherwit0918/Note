@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Python/未命名.md",
+                "file": "2_Python/2_1_Python基础/Python管理工具-uv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Python管理工具-uv"
             }
           }
         ],
@@ -194,11 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4e16afbe5f0fb9e",
+  "active": "55e60b50d5057085",
   "lastOpenFiles": [
-    "2_Python/未命名",
     "1_MySQL/1_2 SQL结构化查询语言.md",
+    "2_Python/2_1_Python基础/Python管理工具-uv.md",
     "2_Python/未命名.md",
+    "2_Python/2_1_Python基础",
     "2_Python",
     "1_MySQL/1_1 MySQL逻辑结构.md",
     "conflict-files-obsidian-git.md",
