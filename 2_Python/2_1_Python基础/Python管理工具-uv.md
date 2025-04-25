@@ -64,4 +64,14 @@ uv init 路径
 - `--name` 项目名称, 默认是目录名称
 - `--python/-p` 指定项目使用的python版本
 - `--script`这个可以直接创建独立的脚本文件, 然后使用`uv run 脚本文件名`执行
-> --app与--package的区别是package目录结构上会多一个src, 另一个上project.toml会多出project.scripts选项和build-systemxu a
+> --app与--package的区别是package目录结构上会多一个src, 另一个上project.toml会多出project.scripts选项和build-system选项
+> --lib 与 --package的区别不大, 看起来就是少了个project.scripts, 其他几乎一样
+
+**添加依赖**
+```
+uv add 包名
+```
+主要参数
+- `--dev`  添加到开发依赖项
+- `--default-index` 默认软件包索引的url, 默认值是`https://pypi.org/simple`
+- `--index.  
