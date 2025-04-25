@@ -59,4 +59,9 @@ uv init 路径
 
 **init命令的主要选项**
 - `--app`  为一个应用程序创建项目, 这是默认的行为, 默认的这个行为不是为了构建和分发为python包而设计的, 这种适合开发服务/脚本/命令行的等
-- `--package`将项目she z
+- `--package`将项目设置构建为python包, 会定义项目等[build-system], 如果你给了`--lib`选项那么这是默认携带的, 也可以在使用`--app`时组合使用这个选项,  这将包含[project.scripts]入口点, 并使用`src/`项目
+- `--lib` 创建一个库项目, 这个目标是为了包的构建和分发
+- `--name` 项目名称, 默认是目录名称
+- `--python/-p` 指定项目使用的python版本
+- `--script`这个可以直接创建独立的脚本文件, 然后使用`uv run 脚本文件名`执行
+> --app与--package的区别是package目录结构上会多一个src, 另一个上project.toml会多出project.scripts选项和build-systemxu a
