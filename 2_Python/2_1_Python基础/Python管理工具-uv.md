@@ -102,4 +102,13 @@ uv tree
 ### uv工具
 `uv tool run ruff`可以直接在不安装ruff的情况下使用ruff, 这个命令和npx很像。
 由于这个命令特别的常用, 所以有一个别名`uvx ruff`
-如果一个工具经常
+如果一个工具经常使用, 最好将其安装到持久环境中, 并将其添加到PATH
+安装ruff可以使用`uv tool install ruff`
+当一个工具被安装的时候, 其可可执行文件会被放到bin目录下, 并添加到`PATH`中, 如果PATH添加失败会显示一个警告, 并且可以使用`uv tool update-shell` 将其添加到PATH中
+> 注意: 通过uv tool install 安装的命令都在全局
+
+```
+uv tool upgrade ruff   升级工具
+uv tool list           列出所有安装的工具
+uv tool uninstall      卸载安装的工具
+```
