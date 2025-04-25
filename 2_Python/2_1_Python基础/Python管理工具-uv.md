@@ -35,5 +35,10 @@ rm ~/.cargo/bin/uv ~/.cargo/bin/uvx
 
 ### 管理Python版本
 ```
-uv python list   查看可用的python版本和已经安装的python版本, 这两个功能s
+uv python list       查看可用的python版本和已经安装的python版本, 这两个功能是一起的
+uv python install    安装python版本, 可以多个版本一起安装
+uv python find       查找某个python版本的路径
+uv python pin        将当前版本固定为特定的python版本
+uv python uninstall  卸载python版本
 ```
+> 这些版本都是作用于项目的, 目前没有官方提供的设置到全局的方法, 所以python的版本管理可以结合pyenv来使用, uv刚好可以检测到系统里吗的所有的python版本
