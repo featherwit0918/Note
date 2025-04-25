@@ -74,4 +74,6 @@ uv add 包名
 主要参数
 - `--dev`  添加到开发依赖项
 - `--default-index` 默认软件包索引的url, 默认值是`https://pypi.org/simple`
-- `--index.  
+- `--index`  在解析依赖项时使用的url, 除了默认索引之外
+- `--reinstall`  重新安装所有的软件包, 无论他们是否已安装
+- `--script` 将依赖项添加到指定的python脚本
