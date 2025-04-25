@@ -31,4 +31,5 @@ rm -r "$(uv python dir)"
 rm -r "$(uv tool dir)"
 rm ~/.cargo/bin/uv ~/.cargo/bin/uvx
 ```
-> 先qing l
+> 先清理缓存, 然后删除python和toll存储的文件夹, 最后删除uv和uvx命令
+
