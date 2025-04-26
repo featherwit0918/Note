@@ -145,3 +145,7 @@ uv pip uninstall pandas #卸载pandas包（不会卸载pandas依赖的包，这�
 uv pip freeze > requirements.txt
 ```
 **导入python包列表**
+```
+uv pip install -r requirements.txt
+```
+
