@@ -116,3 +116,5 @@ uv tool upgrade ruff   升级工具
 uv tool list           列出所有安装的工具
 uv tool uninstall      卸载安装的工具
 ```
+
+### uv换镜像源
