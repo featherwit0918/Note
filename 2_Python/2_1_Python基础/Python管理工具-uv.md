@@ -118,3 +118,10 @@ uv tool uninstall      卸载安装的工具
 ```
 
 ### uv换镜像源
+uv不会读取pip的镜像源配置，所以要自己配置一下
+在项目文件中的`pyproject.toml`中, 添加如下内容
+```
+[tool.uv]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+```
+
