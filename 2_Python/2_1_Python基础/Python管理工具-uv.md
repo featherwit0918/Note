@@ -125,3 +125,4 @@ uv不会读取pip的镜像源配置，所以要自己配置一下
 index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 ```
 
+### 把uv当作pip
