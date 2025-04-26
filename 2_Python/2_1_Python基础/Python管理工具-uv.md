@@ -125,4 +125,23 @@ uv不会读取pip的镜像源配置，所以要自己配置一下
 index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 ```
 
-### 把uv当作pip
+### 把uv当作pip加速工具
+把原来的pip命令前面加个uv，变成`uv pip`，提高包的安装速度
+**查看当前python包**
+```
+uv pip list #查看当前python包
+uv pip tree #查看当前python包，可显示包依赖关系
+```
+**安装python包**
+```
+uv pip install pandas
+```
+**卸载python包**
+```
+uv pip uninstall pandas #卸载pandas包（不会卸载pandas依赖的包，这点与pip一样）
+```
+**导出python包列表**
+```
+uv pip freeze > requirements.txt
+```
+**导入python包列表**
